@@ -26,11 +26,11 @@
 				"HEURE":"Heure",
 				"DUREE": "Duree",
 				"VITESSE": "Vitesse",
-				"CONNECT": "Connexion",
-				"CONNECTA": "Connexion a ",
+				"CONNECT": "Connection",
+				"CONNECTA": "Connection a ",
 				"DEMAR": "Demarrage",
 				"REDEMAR": "Redemarrage",
-				"ENCOURS": "en cours",		
+				"ENCOURS": "En cours",				
 				"CALIBR": "Calibration",
 				"VEILLE": "En veille"
 		}

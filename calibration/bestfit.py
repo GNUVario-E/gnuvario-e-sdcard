@@ -513,7 +513,7 @@ def NewtonGaussSphereStep(beta, ep):
     r = computeSphereR(beta, ep)
 
     # compute delta and apply #
-    delta = np.linalg.lstsq(J,r)[0]
+    delta = np.linalg.lstsq(J,r,rcond=None)[0]
     beta = beta + delta
     
     return beta, np.linalg.norm(delta)
@@ -649,7 +649,7 @@ def NewtonGaussEllipsoidStep(beta, ep):
     r = computeEllipsoidR(beta, ep)
 
     # compute delta and apply #
-    delta = np.linalg.lstsq(J,r)[0]
+    delta = np.linalg.lstsq(J,r,rcond=None)[0]
     beta = beta + delta
     
     return beta, np.linalg.norm(delta)
