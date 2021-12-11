@@ -24,7 +24,7 @@
 				"STAT": "Statistics",
 				"DATE": "Date",
 				"HEURE":"Time",
-				"DUREE": "Flight time",
+				"DUREE": "F. time",
 				"VITESSE": "Speed",
 				"CONNECT": "Connection",
 				"CONNECTA": "Connected to ",
@@ -32,6 +32,9 @@
 				"REDEMAR": "Reboot",
 				"ENCOURS": "in progress",		
 				"CALIBR": "Calibration",
-				"VEILLE": "Standby"
+				"VEILLE": "Standby",
+				"CHARGE": "in charge",
+				"CHARGER": "loaded",
+				"BATTERIE": "Battery"
 		}
 }
